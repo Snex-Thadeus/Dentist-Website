@@ -142,4 +142,3 @@ EMAIL_USE_TLS = True
 
 django_heroku.settings(locals())
 
-print(EMAIL_HOST_USER)
