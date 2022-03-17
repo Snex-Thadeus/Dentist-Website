@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY_DENTIST')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'https://snex-dentist.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost', 'snex-dentist.herokuapp.com']
 
 
 # Application definition
@@ -141,3 +141,5 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = True
 
 django_heroku.settings(locals())
+
+print(EMAIL_HOST_USER)
